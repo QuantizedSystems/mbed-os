@@ -2939,8 +2939,14 @@
             "STM32G0B1xx"
         ],
         "device_has_add": [
-            "ANALOGOUT"
-        ]
+            "ANALOGOUT",
+            "USBDEVICE"
+        ],
+        "config": {
+            "usb_speed": {
+                "value": "USE_USB_NO_OTG"
+            }
+        }
     },
     "NUCLEO_G0B1RE": {
         "inherits": [
