@@ -63,7 +63,7 @@ public:
     /**
      * Copy constructor
      */
-    MIDIMessage(const MIDIMessage &other)
+    MIDIMessage(const MIDIMessage &other) : MIDIMessage()
     {
         *this = other;
     }
