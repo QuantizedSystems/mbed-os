@@ -78,7 +78,7 @@ void USBMIDI::wait_ready()
 }
 
 // write plain MIDIMessage that will be converted to USBMidi event packet
-bool USBMIDI::write(MIDIMessage m)
+bool USBMIDI::write(const MIDIMessage& m)
 {
     _write_mutex.lock();
 

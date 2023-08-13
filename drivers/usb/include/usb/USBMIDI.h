@@ -118,7 +118,7 @@ public:
      * @param m The MIDIMessage to send
      * @return true if the message was sent, false otherwise
      */
-    bool write(MIDIMessage m);
+    bool write(const MIDIMessage& m);
 
     /**
      * Check if a message can be read
